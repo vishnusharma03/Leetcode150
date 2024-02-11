@@ -15,7 +15,7 @@ public class Leetcode56 {
     }
 
     // Optimized method but copied.
-    private static int[][] merge(int[][] intervals) {
+    public static int[][] merge(int[][] intervals) {
         if (intervals.length <= 1) {
             return intervals;
         }

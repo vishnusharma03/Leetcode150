@@ -2,7 +2,7 @@ package src;
 
 import java.util.Arrays;
 
-public class Leetcode167 {
+public class   Leetcode167 {
     public static void main(String[] args) {
         int[] numbers = {-1,0};
         int target = -1;

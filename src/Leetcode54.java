@@ -33,7 +33,6 @@ public class Leetcode54 {
             right--;
 
             if (top <= bottom) {
-                // Traverse from right to left
                 for (int j = right; j >= left; j--) {
                     result.add(matrix[bottom][j]);
                 }

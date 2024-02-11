@@ -1,7 +1,5 @@
 package src;
 
-import javax.naming.TimeLimitExceededException;
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class Leetcode202 {

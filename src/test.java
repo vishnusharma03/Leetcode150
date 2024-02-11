@@ -1,17 +1,61 @@
 package src;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,7,1,6,5};
-        System.out.println("OG arr: "+ Arrays.toString(arr));
-        CycleSort(arr);
-        System.out.println("Sorted arr: "+ Arrays.toString(arr));
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(0, "s");
+        map.put(0,"w");
+        System.out.println(map);
+
+
+        int[] arr = {2, 3, 1, 4, 4, 5};
+        int target = 4;
+//        findAllIndex(arr, target, 0, new ArrayList<>());
+//        System.out.println(RecursionReverse(1534));
+
+//        int[] arr = {4,3,2,7,1,6,5};
+//        System.out.println("OG arr: "+ Arrays.toString(arr));
+//        CycleSort(arr);
+//        System.out.println("Sorted arr: "+ Arrays.toString(arr));
+//          System.out.println(56);
+//        Integer num = new Integer(56);
+//        System.out.println(num.toString());
+//        System.out.println(num);
+//        System.out.println("Kunal");
+//        System.out.println(Arrays.toString(new int[]{2, 3, 4, 5}));
+//
+//        String name = null;
+//        System.out.println(name);
+    }
+
+    // If you do not print then you will have trouble in analyzing the answer otherwise in final call
+    // it is calculating the right answer.
+    public static void findAllIndex(int[] arr, int target, int index, ArrayList<Integer> list) {
+        if (index == arr.length) {
+            return;
+        }
+        if (arr[index] == target) {
+            list.add(index);
+        }
+        System.out.println(list);
+        findAllIndex(arr, target, index + 1, list);
+    }
+
+
+    // Wrong Implementation
+    public static int RecursionReverse(int n){
+        if (n / 10 == 0){
+            return n;
+        }
+        int rem = n % 10;
+        return rem*10 + RecursionReverse(n/10);
     }
 
     // Cycle Sort
-
     public static void CycleSort(int[] arr){
         int i = 0;
         while(i < arr.length){

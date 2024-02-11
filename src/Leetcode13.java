@@ -21,11 +21,10 @@ public class Leetcode13 {
         map.put('D', 500);
         map.put('M', 1000);
 
-//        char[] roman = s.toCharArray();
         int size = s.length() - 1;
         int count = map.get(s.charAt(size));
         for (int i = size; i > 0; i--) {
-            int tOne = map.get(s.charAt(i-1)); // map.get(roman[i-1]);
+            int tOne = map.get(s.charAt(i-1));
             if (map.get(s.charAt(i)) <= tOne){
                 count += tOne;
             }else count -= tOne;

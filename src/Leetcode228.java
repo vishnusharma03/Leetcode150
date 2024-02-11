@@ -1,6 +1,5 @@
 package src;
 
-import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +27,6 @@ public class Leetcode228 {
                 s = e;
             }
         }
-
         return list;
     }
 }

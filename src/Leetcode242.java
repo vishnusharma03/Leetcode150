@@ -15,7 +15,7 @@ public class Leetcode242 {
 
 
     // Beats 84% of Java Users
-    private static boolean isAnagram(String s, String t) {
+    static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
         char[] sOne = s.toCharArray();
         char[] tOne = t.toCharArray();

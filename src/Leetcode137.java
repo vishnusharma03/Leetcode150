@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Leetcode137 {
     public static void main(String[] args) {
-        int[] nums = {30000,500,100,30000,100,30000,100};
+        int[] nums = {2,2,3,2}; //{30000,500,100,30000,100,30000,100};
         System.out.println(singleNumber(nums));
     }
 

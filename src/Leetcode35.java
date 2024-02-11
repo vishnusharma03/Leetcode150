@@ -32,7 +32,6 @@ public class Leetcode35{
                 end = mid - 1;
             }
         }
-
         return mid;
     }
 }

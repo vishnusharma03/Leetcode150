@@ -2,8 +2,8 @@ package src;
 
 public class Leetcode50 {
     public static void main(String[] args) {
-        double x = 0.00001;
-        int n = 2147483647;
+        double x = 2;
+        int n = 10;
         System.out.println(myPow(x, n));
     }
 

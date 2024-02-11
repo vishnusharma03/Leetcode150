@@ -1,27 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="970ff314-43e6-4694-928f-8e1d225a7ee3" name="Changes" comment="" />
+    <list default="true" id="970ff314-43e6-4694-928f-8e1d225a7ee3" name="Changes" comment="D12P2 Leetcode205">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcod190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcod190.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode122.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode137.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode228.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode228.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode242.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode73.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ZvQfpFPP31MC5C5FpVPvVSTqPk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Leetcod190.executor": "Run",
+    "Application.Leetcode1.executor": "Run",
+    "Application.Leetcode11.executor": "Run",
+    "Application.Leetcode12.executor": "Run",
+    "Application.Leetcode125.executor": "Run",
+    "Application.Leetcode128.executor": "Run",
+    "Application.Leetcode13.executor": "Run",
+    "Application.Leetcode134.executor": "Debug",
+    "Application.Leetcode135.executor": "Run",
+    "Application.Leetcode136.executor": "Run",
+    "Application.Leetcode137.executor": "Run",
+    "Application.Leetcode14.executor": "Run",
+    "Application.Leetcode149.executor": "Run",
+    "Application.Leetcode15.executor": "Run",
+    "Application.Leetcode151.executor": "Run",
+    "Application.Leetcode167.executor": "Debug",
+    "Application.Leetcode172.executor": "Run",
+    "Application.Leetcode191.executor": "Debug",
+    "Application.Leetcode201.executor": "Run",
+    "Application.Leetcode202.executor": "Run",
+    "Application.Leetcode205.executor": "Run",
+    "Application.Leetcode209.executor": "Debug",
+    "Application.Leetcode219.executor": "Run",
+    "Application.Leetcode228.executor": "Run",
+    "Application.Leetcode238.executor": "Debug",
+    "Application.Leetcode242.executor": "Run",
+    "Application.Leetcode274.executor": "Run",
+    "Application.Leetcode28.executor": "Run",
+    "Application.Leetcode289.executor": "Run",
+    "Application.Leetcode290.executor": "Run",
+    "Application.Leetcode3.executor": "Run",
+    "Application.Leetcode30.executor": "Run",
+    "Application.Leetcode35.executor": "Run",
+    "Application.Leetcode383.executor": "Run",
+    "Application.Leetcode392.executor": "Run",
+    "Application.Leetcode42.executor": "Run",
+    "Application.Leetcode45.executor": "Run",
+    "Application.Leetcode452.executor": "Run",
+    "Application.Leetcode48.executor": "Run",
+    "Application.Leetcode49.executor": "Run",
+    "Application.Leetcode50.executor": "Debug",
+    "Application.Leetcode54.executor": "Run",
+    "Application.Leetcode55.executor": "Run",
+    "Application.Leetcode56.executor": "Run",
+    "Application.Leetcode57.executor": "Run",
+    "Application.Leetcode58.executor": "Run",
+    "Application.Leetcode6.executor": "Debug",
+    "Application.Leetcode66.executor": "Run",
+    "Application.Leetcode67.executor": "Debug",
+    "Application.Leetcode68.executor": "Run",
+    "Application.Leetcode69.executor": "Debug",
+    "Application.Leetcode73.executor": "Run",
+    "Application.Leetcode74.executor": "Run",
+    "Application.Leetcode9.executor": "Run",
+    "Application.LeetcodeContest.executor": "Debug",
+    "Application.RandomizedSet.executor": "Run",
+    "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/DSA/Leetcode150",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Leetcode74">
+    <configuration name="Leetcode137" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Leetcode137" />
+      <module name="Leetcode150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Leetcode149" />
+      <module name="Leetcode150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode201" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Leetcode201" />
+      <module name="Leetcode150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Leetcode35" />
+      <module name="Leetcode150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode74" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Leetcode74" />
+      <module name="Leetcode150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Leetcode74" />
+        <item itemvalue="Application.Leetcode149" />
+        <item itemvalue="Application.Leetcode35" />
+        <item itemvalue="Application.Leetcode201" />
+        <item itemvalue="Application.Leetcode137" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +215,208 @@
       <option name="presentableId" value="Default" />
       <updated>1703300211950</updated>
     </task>
+    <task id="LOCAL-00001" summary="D11P1 Leetcode289">
+      <option name="closed" value="true" />
+      <created>1706103072672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706103072672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="D12P1 Leetcode289">
+      <option name="closed" value="true" />
+      <created>1706184977744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706184977833</updated>
+    </task>
+    <task id="LOCAL-00003" summary="D12P2 Leetcode205">
+      <option name="closed" value="true" />
+      <created>1706189802833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706189802833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="D11P1 Leetcode289" />
+    <MESSAGE value="D12P1 Leetcode289" />
+    <MESSAGE value="D13P1 Leetcode290" />
+    <MESSAGE value="D12P2 Leetcode205" />
+    <option name="LAST_COMMIT_MESSAGE" value="D12P2 Leetcode205" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode55.java</url>
+          <line>76</line>
+          <properties class="src.Leetcode55">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode55.java</url>
+          <line>19</line>
+          <properties class="src.Leetcode55">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode134.java</url>
+          <line>10</line>
+          <properties class="src.Leetcode134" method="canCompleteCircuit">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode68.java</url>
+          <line>61</line>
+          <properties class="src.Leetcode68">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode167.java</url>
+          <line>44</line>
+          <properties class="src.Leetcode167">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test.java</url>
+          <line>49</line>
+          <properties class="src.test" method="RecursionReverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode54.java</url>
+          <line>55</line>
+          <properties class="src.Leetcode54">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode48.java</url>
+          <line>11</line>
+          <properties class="src.Leetcode48" method="rotate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode383.java</url>
+          <line>36</line>
+          <properties class="src.Leetcode383">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LeetcodeContest.java</url>
+          <line>11</line>
+          <properties class="src.LeetcodeContest" method="countKeyChanges">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode128.java</url>
+          <line>87</line>
+          <properties class="src.Leetcode128">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode13.java</url>
+          <line>12</line>
+          <properties class="src.Leetcode13" method="romanToInt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode56.java</url>
+          <line>95</line>
+          <properties class="src.Leetcode56">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode66.java</url>
+          <line>11</line>
+          <properties class="src.Leetcode66" method="plusOne">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode50.java</url>
+          <line>31</line>
+          <properties class="src.Leetcode50">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode50.java</url>
+          <line>18</line>
+          <properties class="src.Leetcode50" method="fastPow">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode67.java</url>
+          <line>11</line>
+          <properties class="src.Leetcode67" method="addBinary">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Leetcode150$Leetcode201.ic" NAME="Leetcode201 Coverage Results" MODIFIED="1707496572467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Leetcode150$Leetcod190.ic" NAME="Leetcod190 Coverage Results" MODIFIED="1707405671485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Leetcode150$Leetcode55.ic" NAME="Leetcode55 Coverage Results" MODIFIED="1703557462213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -56,7 +56,7 @@ public class Leetcode33 {
             if (mid > s && nums[mid] < nums[mid - 1]) {
                 return mid;
             }
-            if (nums[s] <= nums[mid])
+            if (nums[s] >= nums[mid])
                 s = mid + 1;
             else e = mid - 1;
         }

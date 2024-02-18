@@ -6,13 +6,15 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-        HashMap<Integer, String> map = new HashMap<>();
-        map.put(0, "s");
-        map.put(0,"w");
-        System.out.println(map);
+//        HashMap<Integer, String> map = new HashMap<>();
+//        map.put(0, "s");
+//        map.put(0,"w");
+//        System.out.println(map);
+        int[] arr1 = {2};
+        int[] arr2 = {3,5};
+        System.out.println(kth(arr1, arr2, 2, 1, 1));
 
 
-        int[] arr = {2, 3, 1, 4, 4, 5};
         int target = 4;
 //        findAllIndex(arr, target, 0, new ArrayList<>());
 //        System.out.println(RecursionReverse(1534));
@@ -30,6 +32,72 @@ public class test {
 //
 //        String name = null;
 //        System.out.println(name);
+    }
+
+    public static int kth(int[] arr1, int[] arr2, int n, int m, int k) {
+        // base cases
+        if (n == 1 || m == 1) {
+            // if one array is empty or only has one element, find the kth element in the other array
+            if (m == 1) {
+                int[] temp = arr1;
+                arr1 = arr2;
+                arr2 = temp;
+                m = n;
+            }
+            if (k == 1) {
+                return Math.min(arr1[0], arr2[0]);
+            } else if (k == m + 1) {
+                return Math.max(arr1[0], arr2[0]);
+            } else {
+                if (arr2[k - 1] < arr1[0]) {
+                    return arr2[k - 1];
+                } else {
+                    return Math.max(arr1[0], arr2[k - 2]);
+                }
+            }
+        }
+
+        int mid1 = (n - 1) / 2;
+        int mid2 = (m - 1) / 2;
+
+        if (mid1 + mid2 + 1 < k) {
+            // if k is greater than the sum of midpoints, discard the smaller half of the arrays and recurse
+            if (arr1[mid1] < arr2[mid2]) {
+                return kth(
+                        Arrays.copyOfRange(arr1, mid1 + 1, n),
+                        arr2,
+                        n - (mid1 + 1),
+                        m,
+                        k - (mid1 + 1)
+                );
+            } else {
+                return kth(
+                        arr1,
+                        Arrays.copyOfRange(arr2, mid2 + 1, m),
+                        n,
+                        m - (mid2 + 1),
+                        k - (mid2 + 1)
+                );
+            }
+        } else {
+            if (arr1[mid1] < arr2[mid2]) {
+                return kth(
+                        arr1,
+                        Arrays.copyOfRange(arr2, 0, mid2 + 1),
+                        n,
+                        mid2 + 1,
+                        k
+                );
+            } else {
+                return kth(
+                        Arrays.copyOfRange(arr1, 0, mid1 + 1),
+                        arr2,
+                        mid1 + 1,
+                        m,
+                        k
+                );
+            }
+        }
     }
 
     // If you do not print then you will have trouble in analyzing the answer otherwise in final call

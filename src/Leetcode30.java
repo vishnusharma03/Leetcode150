@@ -10,7 +10,7 @@ public class Leetcode30 {
         List<Integer> ans = findSubstring(s, words);
         System.out.println(ans);
     }
-    public List<Integer> findSubstring(String s, String[] words) {
+    public static List<Integer> findSubstring(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
             if(s ==null||words ==null||words.length ==0)return result;
 
@@ -18,21 +18,13 @@ public class Leetcode30 {
         int wordCount = words.length;
         int totalLen = wordLen * wordCount;
 
-        // Build the word frequency map
-        Map<String, Integer> wordMap = new HashMap<>();
-            for(
-        String word :words)
 
-        {
+        Map<String, Integer> wordMap = new HashMap<>();
+        for(String word :words) {
             wordMap.put(word, wordMap.getOrDefault(word, 0) + 1);
         }
 
-        // Traverse the string in chunks of wordLen
-            for(
-        int i = 0;
-        i<wordLen;i++)
-
-        {
+        for(int i = 0; i<wordLen;i++) {
         int left = i, count = 0;
         Map<String, Integer> map = new HashMap<>();
         for (int j = i; j <= s.length() - wordLen; j += wordLen) {

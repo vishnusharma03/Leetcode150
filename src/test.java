@@ -6,16 +6,18 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
+
+        System.out.println((int)(Math.pow(10,0)));
 //        HashMap<Integer, String> map = new HashMap<>();
 //        map.put(0, "s");
 //        map.put(0,"w");
 //        System.out.println(map);
-        int[] arr1 = {2};
-        int[] arr2 = {3,5};
-        System.out.println(kth(arr1, arr2, 2, 1, 1));
-
-
-        int target = 4;
+//        int[] arr1 = {2};
+//        int[] arr2 = {3,5};
+//        System.out.println(kth(arr1, arr2, 2, 1, 1));
+//
+//
+//        int target = 4;
 //        findAllIndex(arr, target, 0, new ArrayList<>());
 //        System.out.println(RecursionReverse(1534));
 

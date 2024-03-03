@@ -1,7 +1,5 @@
 package src;
 
-import java.awt.geom.FlatteningPathIterator;
-
 public class Leetcode92 {
 
     // Definition for singly-linked list.
@@ -22,7 +20,7 @@ public class Leetcode92 {
         }
     }
 
-    // Beats 100%
+    // Optimal Solution
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if (head==null || head.next==null) return head;
         ListNode prev = null;
@@ -102,7 +100,7 @@ public class Leetcode92 {
 
 
 
-    // Working for left >=2 && right <= length
+    // Working for left >=2 && right < length
 //    public ListNode reverseBetween(ListNode head, int left, int right) {
 //        if (head==null || head.next==null) return head;
 //        ListNode prev = null;

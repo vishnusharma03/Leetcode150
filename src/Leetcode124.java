@@ -6,7 +6,7 @@ public class Leetcode124 {
     }
 
     public int maxPathSum(TreeNode root) {
-
+        return 0;
     }
 
     // Definition for a binary tree node.

@@ -13,7 +13,7 @@ public class Leetcode212 {
         this.board = board;
         this.result = new ArrayList<>();
 
-        Trie trie = new Trie();
+        Trie2 trie = new Trie2();
         for (String word : words) {
             trie.insert(word);
         }
@@ -71,10 +71,10 @@ class TrieNode {
     String word = null;
 }
 
-class Trie {
+class Trie2 {
     private TrieNode root;
 
-    public Trie() {
+    public Trie2() {
         root = new TrieNode();
     }
 

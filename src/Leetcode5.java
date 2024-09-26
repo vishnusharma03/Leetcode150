@@ -11,8 +11,7 @@ public class Leetcode5 {
 
         boolean[][] dp = new boolean[n][n];
         int start = 0, maxLength = 1;
-
-        // Base cases
+        
         for (int i = 0; i < n; i++) {
             dp[i][i] = true;
         }

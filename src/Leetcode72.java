@@ -37,6 +37,7 @@ public class Leetcode72 {
 
 // What did I learn??
 // Conversion of the conditions insert, delete & replace to dynamic programming.
+// aka bottom up dp
 
 //    public static int helper(String w1, String w2, int i, int j){
 //        if (w1.isEmpty() && w2.isEmpty())
